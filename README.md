@@ -23,10 +23,10 @@ https://nodejs.org/download/test/v7.0.0-test201610107f7d1d385d/
 
 ### Run the demo
 Currently async / await support ships under --harmony-async-await flag.
-npm start commands executed `node --harmony-async-await index.js`
+npm start command executes `node --harmony-async-await index.js`
 
 ```
-npm i
+npm install
 npm start
 ```
 
@@ -34,4 +34,4 @@ npm start
 
 While async/await is a great addition, some things like ES6 module support (`import x from 'x'`) and arrow function support in class declaration (`class A { b() => {} }`) are still not supported.
 
-If you use these features you might still want to keep using Babel transpiler.
+If you use these features you might still want to keep a ES6/ES7 -> ES5 transpiler like Babel.
