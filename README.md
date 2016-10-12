@@ -1,4 +1,6 @@
-### Node.js v7 async/await demo
+## Node.js v7 async/await demo
+
+### What is this?
 
 Node.js v7.x.x ships with async/await support, greatly simplifying boilerplate required for writing modern server side code. This project is a demonstration of the minimal setup in order to use the new async/await features in Node.
 
