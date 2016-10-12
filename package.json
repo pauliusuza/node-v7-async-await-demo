@@ -1,0 +1,15 @@
+{
+  "name": "node-v7-async-await-demo",
+  "version": "1.0.0",
+  "description": "Node.js 7.0.0 async / await support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -v; node --harmony-async-await index.js"
+  },
+  "author": "Paulius Uza <pauliusuza@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "2.0.0"
+  }
+}
