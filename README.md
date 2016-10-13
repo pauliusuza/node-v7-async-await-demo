@@ -11,7 +11,7 @@ NOTE: async/await are not officially supported in Node.js v7.x at this point. Yo
 Go to http://nvm.sh and follow the instructions on installing nvm for your platform.
 Then add v7 mirror to NVM:
 ```
-NVM_NODEJS_ORG_MIRROR=https://nodejs.org/download/test nvm install v7
+NVM_NODEJS_ORG_MIRROR=https://nodejs.org/download/test
 ```
 After you added the v7 mirror, install v7 version using NVM:
 ```
