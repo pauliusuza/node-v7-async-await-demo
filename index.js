@@ -36,7 +36,7 @@ app.use(async ctx => {
 });
 
 // Start listening on specified port
-app.listen(port, function() {
+app.listen(port, () => {
   console.log("listening on port", port);
 });
 
