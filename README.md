@@ -6,23 +6,20 @@ Node.js v7.x.x ships with experimental async/await support, greatly simplifying 
 
 NOTE: async/await are not officially supported in Node.js v7.x at this point. You are welcome to try things out, but there may be no support if you encounter bugs.
 
-### Node.js v7 - setup using node version manager (nvm) - recommended
+### Node.js v7 - simple setup (recommended)
+
+Download and install node.js v7 release version for your platform from https://nodejs.org
+```
+https://nodejs.org
+```
+
+### Node.js v7 - setup using node version manager (nvm)
 
 Go to http://nvm.sh and follow the instructions on installing nvm for your platform.
-Then add v7 mirror to NVM:
-```
-NVM_NODEJS_ORG_MIRROR=https://nodejs.org/download/test
-```
-After you added the v7 mirror, install v7 version using NVM:
+Afterwards, run:
 ```
 nvm install 7
 nvm use 7
-```
-
-### Node.js v7 - manual setup
-Download and install node.js v7 nightly version for your platform
-```
-https://nodejs.org/download/test/v7.0.0-test201610107f7d1d385d/
 ```
 
 ### Run the demo
